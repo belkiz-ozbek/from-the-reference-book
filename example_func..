@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+void print_h(void)
+{
+	printf("** **\n");
+	printf("** **\n");
+	printf("*****\n");
+	printf("** **\n");
+	printf("** **\n");
+}
+int main ()
+{
+	print_h();
+}
