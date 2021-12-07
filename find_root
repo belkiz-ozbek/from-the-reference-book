@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+
+int main(int argc, char *argv[]) {
+	
+double first,second,
+		first_sqrt,
+		second_sqrt,sum_sqrt;
+		
+		printf("Enter the first number:");
+		scanf("%lf",&first);
+		
+		first_sqrt=sqrt(first);
+		printf("The square root of the first number is %.2f\n",first_sqrt);
+		
+		
+
+	return 0;
+}
