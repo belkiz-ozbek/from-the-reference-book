@@ -1,0 +1,20 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+//Displays a real number in a box
+
+void print_rboxed(double rnum)
+{
+	
+
+	printf("***********\n");
+	printf("*         *\n");
+	printf("* %7.2f *\n",rnum);
+	printf("***********\n");
+}
+
+int main(void)
+{
+	print_rboxed(135.68);
+}
+
