@@ -1,0 +1,19 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+
+
+double scale(double x,int n){
+	
+	double scale_factor;
+	scale_factor=pow(10,n);
+	return(x*scale_factor);
+
+}
+
+int main(void){
+	
+printf("%f",scale(1.0,2));	
+	
+}
+
